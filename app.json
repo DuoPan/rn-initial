@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "Tanggram Merchant",
+    "slug": "tanggram_merchant",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.11",
+    "orientation": "portrait",
+    "icon": "./src/Asset/icon-ios.png",
+    "splash": {
+      "image": "./src/Asset/splash-tanggram.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F9F9F5"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 5000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "notification": {
+      "icon": "./src/Asset/notification-icon-black.png",
+      "color": "#000000"
+    },
+    "ios": {
+      "bundleIdentifier": "com.tanggram.merchant",
+      "icon": "./src/Asset/icon-ios.png",
+      "supportsTablet": false,
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "Tanggram uses your camera to scan Tanggram QR code"
+      }
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#000"
+    },
+    "android": {
+      "package": "com.tanggram.merchant",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/Asset/icon-android.png",
+        "backgroundColor": "#FBF9F0"
+      },
+      "versionCode": 202002124,
+      "permissions": [
+        "USE_FINGERPRINT",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "MANAGE_DOCUMENTS",
+        "CAMERA"
+      ],
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.tanggram.merchant",
+      "intentFilters": []
+    },
+    "extra": {
+      "bugsnag": {
+        "apiKey": "1d7f44ddf1515d722230fd87d5f49043"
+      },
+      "otaVersion": "2020021811"
+    }
+  }
+}

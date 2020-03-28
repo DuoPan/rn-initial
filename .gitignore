@@ -1,0 +1,15 @@
+node_modules/**/*
+.expo/*
+.expo-shared
+.vscode
+npm-debug.*
+*.jks
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+.idea/*
+src/profile.ts
+var/*

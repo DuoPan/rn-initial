@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "276634920346",
+    "firebase_url": "https://tanggram-merchant.firebaseio.com",
+    "project_id": "tanggram-merchant",
+    "storage_bucket": "tanggram-merchant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276634920346:android:a810fcb1c00795d2de0623",
+        "android_client_info": {
+          "package_name": "com.tanggram.merchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276634920346-3qe465okvfa70optqglslcjog09a7snm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH0wpX9SxOuqgi7hmVRM30yRllEs335x8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276634920346-3qe465okvfa70optqglslcjog09a7snm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

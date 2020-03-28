@@ -1,0 +1,28 @@
+{
+    "include": ["./src/**/*","./assets/**/*"],
+    "exclude": ["./node_modules/**/*"],
+    "compilerOptions": {
+      "allowJs": true,
+      "checkJs": true,
+      "target": "esnext",
+      "noEmit": true,
+      "skipLibCheck": true,
+      "lib": ["dom", "esnext"],
+      "jsx": "react-native",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "resolveJsonModule": true,
+      "baseUrl": "./src",
+      "paths": {
+        "@App": ["App"],
+        "@config": ["config"],
+        "@logger": ["logger"],
+        "@profile": ["profile"],
+        "@Routes": ["Routes"],
+        "@store": ["store"],
+        "@tanggram": ["tanggram"],
+        "@theme": ["theme"],
+      }
+    }
+  }
