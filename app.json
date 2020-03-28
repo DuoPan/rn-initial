@@ -45,9 +45,8 @@
     },
     "android": {
       "package": "com.tanggram.merchant",
-      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
-        "foregroundImage": "./src/Asset/icon-android.png",
+        "foregroundImage": "./src/Asset/icon.png",
         "backgroundColor": "#FBF9F0"
       },
       "versionCode": 202002124,
