@@ -4,7 +4,7 @@
     "start": "expo start"
   },
   "dependencies": {
-    "expo": "~36.0.0",
+    "expo": "~48.0.0",
     "expo-asset": "~8.0.0",
     "expo-secure-store": "~8.0.0",
     "lottie-react-native": "~2.6.1",
